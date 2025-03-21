@@ -1,6 +1,22 @@
 # UPEN-Mamba
 Welcome to the official repository for **U-PEN Mamba**, a cutting-edge deep learning model introduced in the paper *"Efficient Retinal Image Segmentation Using Progressively Expanded Neuron and Self-Attention"*. This project presents a family of U-Net-based architectures—U-PEN, U-PEN++, and U-PEN Mamba—designed for high-accuracy, parameter-efficient retinal vessel segmentation in medical imaging.
 
+
+<p align="center">
+  <figure>
+    <img width="500" src="images/UPEN_mamba.png" alt="U-PEN Mamba Architecture">
+    <figcaption>Illustration of the U-PEN Mamba architecture.</figcaption>
+  </figure>
+</p>
+
+<p align="center">
+  <figure>
+    <img width="500" src="images/UPEN_mamba_support.png" alt="U-PEN Mamba blocks">
+    <figcaption>Illustration of the U-PEN Mamba's blocks: (a) the STEM block, (b) The Convolution Progressive Expansion with Attention Block, and (c) The Mamba Global Context (MGC) block.</figcaption>
+  </figure>
+</p>
+
+
 ## Paper Summary
 
 The paper advances medical image segmentation by introducing three novel architectures:
