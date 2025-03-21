@@ -53,8 +53,8 @@ U-PEN-Mamba/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/U-PEN-Mamba.git
-   cd U-PEN-Mamba
+   git clone https://github.com/MAIN-Lab/UPEN_Mamba.git
+   cd UPEN_Mamba
 
 ```
 data/
