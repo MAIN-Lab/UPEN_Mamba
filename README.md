@@ -13,7 +13,7 @@ Evaluated on the **DRIVE DB** and **CHASE DB1** datasets, U-PEN Mamba achieves t
 For full details, refer to the paper (link to be added upon publication).
 
 ## Repository Structure
-
+```
 U-PEN-Mamba/
 ├── data/                # Directory for datasets (DRIVE DB, CHASE DB1)
 ├── models/              # U-PEN Mamba model implementation
@@ -24,7 +24,7 @@ U-PEN-Mamba/
 ├── requirements.txt     # Required Python packages
 ├── README.md            # This file
 └── LICENSE              # License file (e.g., MIT)
-
+```
 
 
 ## Prerequisites
@@ -40,7 +40,7 @@ U-PEN-Mamba/
    git clone https://github.com/yourusername/U-PEN-Mamba.git
    cd U-PEN-Mamba
 
-
+```
 data/
 ├── DRIVE/
 │   ├── training/
@@ -48,3 +48,4 @@ data/
 ├── CHASE_DB1/
 │   ├── images/
 │   └── groundtruth/
+```
