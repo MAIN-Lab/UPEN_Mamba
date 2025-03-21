@@ -1,2 +1,2 @@
-# UPEN_Mamba
+# UPEN-Mamba
 Efficient Retinal Image Segmentation Using Progressively Expanded Neuron and Self-Attention
