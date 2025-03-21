@@ -4,14 +4,14 @@ Welcome to the official repository for **U-PEN Mamba**, a cutting-edge deep lear
 
 <p align="center">
   <figure>
-    <img width="500" src="images/UPEN_mamba.png" alt="U-PEN Mamba Architecture">
+    <img width="800" src="images/UPEN_mamba.png" alt="U-PEN Mamba Architecture">
     <figcaption>Illustration of the U-PEN Mamba architecture.</figcaption>
   </figure>
 </p>
 
 <p align="center">
   <figure>
-    <img width="500" src="images/UPEN_mamba_support.png" alt="U-PEN Mamba blocks">
+    <img width="800" src="images/UPEN_mamba_support.png" alt="U-PEN Mamba blocks">
     <figcaption>Illustration of the U-PEN Mamba's blocks: (a) the STEM block, (b) The Convolution Progressive Expansion with Attention Block, and (c) The Mamba Global Context (MGC) block.</figcaption>
   </figure>
 </p>
