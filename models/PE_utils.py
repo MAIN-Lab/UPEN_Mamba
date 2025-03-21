@@ -9,7 +9,7 @@ class ProgressiveExpansionQKV(nn.Module):
         self.expand_type = expand_type
         self.function = function
 
-        # 1×1 convolution layers for Q, K, V
+        # 1x1 convolution layers for Q, K, V
         # They will each produce out_channels = `out_channels`
         self.conv_q = nn.Conv2d(in_channels, out_channels, kernel_size=1)
         self.conv_k = nn.Conv2d(in_channels, out_channels, kernel_size=1)
