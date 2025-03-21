@@ -39,3 +39,12 @@ U-PEN-Mamba/
    ```bash
    git clone https://github.com/yourusername/U-PEN-Mamba.git
    cd U-PEN-Mamba
+
+
+data/
+├── DRIVE/
+│   ├── training/
+│   └── test/
+├── CHASE_DB1/
+│   ├── images/
+│   └── groundtruth/
