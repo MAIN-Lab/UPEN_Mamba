@@ -24,3 +24,18 @@ U-PEN-Mamba/
 ├── requirements.txt     # Required Python packages
 ├── README.md            # This file
 └── LICENSE              # License file (e.g., MIT)
+
+
+
+## Prerequisites
+
+- **Python**: 3.8 or higher
+- **Hardware**: NVIDIA GPU (e.g., Tesla A100) recommended for training
+- **Datasets**: DRIVE DB and CHASE DB1 (download from [DRIVE](https://drive.grand-challenge.org/) and [CHASE DB1](https://blogs.kingston.ac.uk/retinal/chasedb1/))
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/U-PEN-Mamba.git
+   cd U-PEN-Mamba
