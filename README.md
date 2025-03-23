@@ -31,7 +31,7 @@ For full details, refer to the paper (link to be added upon publication).
 ## Repository Structure
 ```
 U-PEN-Mamba/
-├── data/                # Directory for datasets (DRIVE DB, CHASE DB1)
+├── datasets/                # Directory for datasets (DRIVE DB, CHASE DB1)
 ├── models/              # U-PEN Mamba model implementation
 ├── scripts/             # Training, prediction, and evaluation scripts
 │   ├── train.py         # Script to train the model
@@ -56,14 +56,42 @@ U-PEN-Mamba/
    git clone https://github.com/MAIN-Lab/UPEN_Mamba.git
    cd UPEN_Mamba
 
+    ```
+
+2. **Set Up a Virtual Environment (optional but recommended)**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
+
+    ```
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
+    ```
+
+4. **Prepare Datasets**:
+* Place DRIVE DB and CHASE DB1 datasets in the data/ directory.
+* Expected structure:
 ```
-data/
-├── DRIVE/
-│   ├── training/
-│   └── test/
-├── CHASE_DB1/
-│   ├── images/
-│   └── groundtruth/
+    datasets/
+    ├── DRIVE/
+    │   ├── patches_192/
+    │     ├── images/
+    │         ├── train/
+    │         └── test/
+    │     └── labels/
+    │         ├── train/
+    │         └── test/
+    ├── CHASE_DB1/
+    │   ├── patches_192/
+    │     ├── images/
+    │         ├── train/
+    │         └── test/
+    │     └── labels/
+    │         ├── train/
+    │         └── test/
 ```
 
 
