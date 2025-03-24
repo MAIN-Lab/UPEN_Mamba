@@ -94,7 +94,19 @@ U-PEN-Mamba/
     │         └── test/
 ```
 
-
+## Usage
+1. **Training the Model** (upen_mamba_train.py)
+```
+python scripts/upen_mamba_train.py --dataset DRIVE --data_dir ./data/DRIVE --batch_size 8 --epochs 60 --lr 1e-4 --output_dir ./outputs
+```
+1. **Making Predictions** (upen_mamba_predict.py)
+```
+python scripts/upen_mamba_predict.py --dataset DRIVE --data_dir ./data/DRIVE --batch_size 8 --epochs 60 --lr 1e-4 --output_dir ./outputs
+```
+1. **Evaluate the Model** (upen_mamba_evaluate.py)
+```
+python scripts/upen_mamba_evaluate.py --dataset DRIVE --data_dir ./data/DRIVE --batch_size 8 --epochs 60 --lr 1e-4 --output_dir ./outputs
+```
 ## Licence
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
