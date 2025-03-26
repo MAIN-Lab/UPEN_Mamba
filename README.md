@@ -31,15 +31,15 @@ For full details, refer to the paper (link to be added upon publication).
 ## Repository Structure
 ```
 U-PEN-Mamba/
-├── datasets/                # Directory for datasets (DRIVE DB, CHASE DB1)
-├── models/              # U-PEN Mamba model implementation
-├── scripts/             # Training, prediction, and evaluation scripts
-│   ├── train.py         # Script to train the model
-│   ├── predict.py       # Script for inference on new images
-│   └── evaluate.py      # Script to evaluate model performance
-├── requirements.txt     # Required Python packages
-├── README.md            # This file
-└── LICENSE              # License file (e.g., MIT)
+├── datasets/                      # Directory for datasets (DRIVE DB, CHASE DB1)
+├── models/                        # U-PEN Mamba model implementation
+├── scripts/                       # Training, prediction, and evaluation scripts
+│   ├── upen_mamba_train.py        # Script to train the model
+│   ├── upen_mamba_predict.py      # Script for inference on new images
+│   └── upen_mamba_evaluate.py     # Script to evaluate model performance
+├── requirements.txt               # Required Python packages
+├── README.md                      # This file
+└── LICENSE                        # License file (e.g., MIT)
 ```
 
 
