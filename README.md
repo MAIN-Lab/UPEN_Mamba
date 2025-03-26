@@ -110,7 +110,9 @@ python upen_mamba_train.py \
     --weight-decay 1e-5 \
     --heads 2 \
     --num-dim 256 \
-    --features "[64, 128, 256, 512]"```
+    --features "[64, 128, 256, 512]"
+```
+
 2. **Making Predictions** (upen_mamba_predict.py)
 ```
 python script_name.py \
@@ -121,6 +123,7 @@ python script_name.py \
       --output-dir outputs \
       --main-path ../datasets
 ```
+
 3. **Evaluate the Model** (upen_mamba_evaluate.py)
 ```
 python upen_mamba_evaluate.py \
@@ -131,4 +134,3 @@ python upen_mamba_evaluate.py \
 ```
 ## Licence
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
