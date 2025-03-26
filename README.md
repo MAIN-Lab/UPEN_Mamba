@@ -97,15 +97,37 @@ U-PEN-Mamba/
 ## Usage
 1. **Training the Model** (upen_mamba_train.py)
 ```
-python scripts/upen_mamba_train.py --dataset DRIVE --data_dir ./data/DRIVE --batch_size 8 --epochs 60 --lr 1e-4 --output_dir ./outputs
+python upen_mamba_train.py \
+    --dataset DRIVE_DB \ ##CHASEDB1
+    --batch-size 8 \
+    --epochs 50 \
+    --num-workers 16
+    --loss dice_bce \
+    --dilation 2 \
+    --se-reduction 16 \
+    --dropout 0.2 \
+    --lr 1e-4 \
+    --weight-decay 1e-5 \
+    --heads 2 \
+    --num-dim 256 \
+    --features "[64, 128, 256, 512]"```
+2. **Making Predictions** (upen_mamba_predict.py)
 ```
-1. **Making Predictions** (upen_mamba_predict.py)
+python script_name.py \
+      --model-path UPEN_mamba_DRIVE_DB_best_model.pth \ #UPEN_mamba_CHASEDB1_best_model.pth
+      --dataset CHASEDB1 \
+      --batch-size 1 \
+      --num-workers 2 \
+      --output-dir outputs \
+      --main-path ../datasets
 ```
-python scripts/upen_mamba_predict.py --dataset DRIVE --data_dir ./data/DRIVE --batch_size 8 --epochs 60 --lr 1e-4 --output_dir ./outputs
+3. **Evaluate the Model** (upen_mamba_evaluate.py)
 ```
-1. **Evaluate the Model** (upen_mamba_evaluate.py)
-```
-python scripts/upen_mamba_evaluate.py --dataset DRIVE --data_dir ./data/DRIVE --batch_size 8 --epochs 60 --lr 1e-4 --output_dir ./outputs
+python upen_mamba_evaluate.py \
+    --main-path ../datasets \
+    --dataset DRIVE_DB \ ##CHASEDB1
+    --model-path UPEN_mamba_DRIVE_DB_best_model.pth \ #UPEN_mamba_CHASEDB1_best_model.pth
+    --num-dim 256 \
 ```
 ## Licence
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
