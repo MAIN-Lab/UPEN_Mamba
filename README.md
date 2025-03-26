@@ -115,7 +115,7 @@ python upen_mamba_train.py \
 
 2. **Making Predictions** (upen_mamba_predict.py)
 ```
-python script_name.py \
+python upen_mamba_predict.py \
       --model-path UPEN_mamba_DRIVE_DB_best_model.pth \ #UPEN_mamba_CHASEDB1_best_model.pth
       --dataset CHASEDB1 \
       --batch-size 1 \
