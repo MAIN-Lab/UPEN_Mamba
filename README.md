@@ -132,5 +132,10 @@ python upen_mamba_evaluate.py \
     --model-path UPEN_mamba_DRIVE_DB_best_model.pth \ #UPEN_mamba_CHASEDB1_best_model.pth
     --num-dim 256 \
 ```
+
+
+https://github.com/user-attachments/assets/c88f37b4-2799-41f8-bbdb-744840d98db2
+
+
 ## Licence
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
