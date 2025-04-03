@@ -134,7 +134,6 @@ python upen_mamba_evaluate.py \
 ```
 
 
-https://github.com/user-attachments/assets/c88f37b4-2799-41f8-bbdb-744840d98db2
 
 
 ## Licence
