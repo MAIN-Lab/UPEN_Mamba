@@ -136,5 +136,7 @@ python upen_mamba_evaluate.py \
 
 
 
-## Licence
+## License
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
